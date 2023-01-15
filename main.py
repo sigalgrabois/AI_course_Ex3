@@ -20,6 +20,8 @@ if __name__ == '__main__':
 
     
     # PATR 2 - COLLABORATING FILLTERING RECOMMENDATION SYSTEM
+    print("*****************************PART 2 - COLLABORATING FILLTERING RECOMMENDATION SYSTEM*******************************")
+    print(user_item_matrix_raw)
     recommender_user = Recommender().fit(user_item_matrix_raw)
     recommender_item = Recommender('item').fit(user_item_matrix_raw)
 
